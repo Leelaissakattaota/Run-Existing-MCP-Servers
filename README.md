@@ -1,9 +1,9 @@
 # 🌐 Run Existing MCP Servers: STDIO & HTTP Protocols
 
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastMCP](https://img.shields.io/badge/Framework-FastMCP-orange?style=for-the-badge)
+![Framework](https://img.shields.io/badge/Framework-FastMCP-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![GitHub Username](https://img.shields.io/badge/Maintainer-Leelaissakattaota-blue?style=for-the-badge&logo=github)
+![Maintainer](https://img.shields.io/badge/Maintainer-LEELAISSAKATTAOTA-blue?style=for-the-badge&logo=github)
 
 An advanced exploration into the **Model Context Protocol (MCP)**, demonstrating how to bridge Large Language Models (LLMs) with external tools and documentation using both local and remote transport protocols.
 
@@ -30,3 +30,7 @@ graph LR
     A[Python Client] <--> B{Transport Bridge}
     B <--> C[Local STDIO Server]
     B <--> D[Remote HTTP Server]
+
+
+
+
